@@ -1,16 +1,24 @@
-# hablerlesme2
+# 💬 MQTT Mesajlaşma Uygulaması (Flutter)
 
-A new Flutter project.
+Bu proje, iki farklı cihaz arasında **gerçek zamanlı mesajlaşma** imkânı sunan bir Flutter uygulamasıdır. MQTT protokolü ile çalışır ve cihazlar arası hızlı, düşük gecikmeli iletişim sağlar.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ⚙️ Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 🌐 MQTT (HiveMQ) protokolü ile bağlantı
+- 💬 Gerçek zamanlı mesaj gönderme ve alma
+- 🆔 Cihazları ayırmak için benzersiz clientID kullanımı
+- 📝 Gönderilen ve alınan mesajları listeleme
+- 🖼️ Hafif mavimsi arka plan
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Kurulum
+
+### 1. Projeyi Klonla
+```bash
+git clone https://github.com/sebahattinn/MqttMessageApp.git
+cd MqttMessageApp
+flutter pub get
+flutter run
